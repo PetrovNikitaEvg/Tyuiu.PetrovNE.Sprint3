@@ -9,7 +9,7 @@ namespace Tyuiu.PetrovNE.Sprint3.Task0.V2.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
             int Start = 1, End = 9;
