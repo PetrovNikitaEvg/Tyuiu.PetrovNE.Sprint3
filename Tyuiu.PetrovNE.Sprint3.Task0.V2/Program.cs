@@ -38,8 +38,7 @@ namespace Tyuiu.PetrovNE.Sprint3.Task0.V2
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"С округлением до 3-х знаков: {Math.Round(res, 3)}");
-            Console.WriteLine($"Без округления: {res}");
+            Console.WriteLine($"{Math.Round(res, 3)}");
 
             Console.ReadLine();
         }
