@@ -18,7 +18,7 @@ namespace Tyuiu.PetrovNE.Sprint3.Task0.V2.Lib
                 result *= Math.Pow( ( (k) / ( Math.Pow((Math.Sin(1)), -7) ) ), -2 );
                //            pow         chisl         znam                  pow to    
             }
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
